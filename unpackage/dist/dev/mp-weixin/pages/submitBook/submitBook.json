@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#1F212D",
+  "usingComponents": {
+    "submit-book": "/conponents/submitBookList"
+  }
+}

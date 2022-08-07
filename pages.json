@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "书架",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#1F212D",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh":false,
+				"navigationBarBackgroundColor":"#007AFF",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/bookCity/bookCity",
+			"style": {
+				"navigationBarTitleText":"书城",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#1F212D"
+			}
+		},
+		{
+			"path":"pages/submitBook/submitBook",
+			"style": {
+				"navigationBarTitleText":"搜索",
+				"navigationBarTextStyle":"white",
+				"navigationBarBackgroundColor": "#1F212D"
+			}
+			
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"backgroundColor":"#F7F7F7",
+		"color":"#606060",
+		"selectedColor":"#007AFF",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/move.jpg",
+				"selectedIconPath":"static/move.jpg",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/user/user",
+				"text": "用户",
+				"iconPath":"static/user1.jpg",
+				"selectedIconPath":"static/user1.jpg"
+			}
+		]
+	}
+}

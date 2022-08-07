@@ -1,0 +1,25 @@
+.submitBookContainer.data-v-eabc9eb4 {
+  height: 100vh;
+  background: -webkit-linear-gradient(top, #1F212D, #999);
+  padding-top: 30rpx;
+  overflow-y: scroll;
+}
+.submitBookContainer .submitbox.data-v-eabc9eb4 {
+  width: 700rpx;
+  margin: 0 auto 30rpx;
+  height: 70rpx;
+}
+.submitBookContainer .submitbox .inputStyle.data-v-eabc9eb4 {
+  height: 70rpx;
+  border-radius: 30rpx;
+  background-color: #eee;
+  border: 0;
+  padding-left: 50rpx;
+}
+.submitBookContainer .bookList.data-v-eabc9eb4 {
+  width: 700rpx;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 30rpx;
+}
+

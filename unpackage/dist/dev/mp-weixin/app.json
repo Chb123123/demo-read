@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/bookCity/bookCity",
+    "pages/submitBook/submitBook"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#F7F7F7",
+    "color": "#606060",
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/move.jpg",
+        "selectedIconPath": "static/move.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "static/user1.jpg",
+        "selectedIconPath": "static/user1.jpg"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

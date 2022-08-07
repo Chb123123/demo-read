@@ -1,0 +1,54 @@
+.submitBook.data-v-1dc2069b {
+  position: relative;
+  width: 700rpx;
+  height: 300rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  margin: 30rpx auto;
+  padding: 25rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.submitBook .bookImg.data-v-1dc2069b {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 30rpx;
+}
+.submitBook .bookintroduce.data-v-1dc2069b {
+  width: 370rpx;
+  height: 250rpx;
+}
+.submitBook .bookintroduce .introduceHead.data-v-1dc2069b {
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 44rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.submitBook .bookintroduce .author.data-v-1dc2069b {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+}
+.submitBook .bookintroduce .bookcontent.data-v-1dc2069b {
+  height: 140rpx;
+  font-size: 28rpx;
+  overflow: hidden;
+}
+.submitBook .bookState.data-v-1dc2069b {
+  position: absolute;
+  top: 15rpx;
+  right: 0rpx;
+  width: 80rpx;
+  height: 40rpx;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 40rpx;
+  background-color: #FFDEAD;
+  border-radius: 20rpx;
+  color: #F00;
+  -webkit-transform: rotateZ(30deg);
+          transform: rotateZ(30deg);
+}
+

@@ -1,0 +1,1 @@
+<view>用户<button data-event-opts="{{[['tap',[['grt',['$event']]]]]}}" bindtap="__e">发送</button><rich-text nodes="{{backImg}}"></rich-text></view>
